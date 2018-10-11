@@ -2,7 +2,7 @@
 
 @Author: Themezinho
 @URL: http://www.themezinho.net
- 
+
 This file contains the styling for the actual theme, this
 is the file you need to edit to change the look of the
 theme.
@@ -23,7 +23,7 @@ theme.
 		11. PRELOADER
 		12. PAGE LOADED
 		13. TEXT ROTATER
-		14. PERSPECTIVE 
+		14. PERSPECTIVE
 		15. SOCIAL BAR
 		16. HEADER
 		17. DROPDOWN
@@ -50,7 +50,7 @@ theme.
 		38. RESPONSIVE TABLET FIXES
 		39. RESPONSIVE MOBILE FIXES
 
-	
+
 
 */
 
@@ -147,7 +147,7 @@ footer{position: relative;}
 /* PRELOADER */
 .preloader{ width: 100%; height: 100%; position: fixed; left: 0; top: 0; z-index: 99; background:#f50c1a; }
 .preloader{-webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; -ms-transform:all 0.4s ease; transition: all 0.4s ease;  }
-.preloader *{-webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; -ms-transform:all 0.4s ease; transition: all 0.4s ease;} 
+.preloader *{-webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; -ms-transform:all 0.4s ease; transition: all 0.4s ease;}
 .preloader img{ width: 80px; height: 80px; position: absolute; left: 50%; top:50%; margin-left: -40px; margin-top: -40px; z-index: 4; border-radius: 50%; padding: 10px; background: #fff;}
 
 
@@ -173,7 +173,7 @@ footer{position: relative;}
 
 
 /* PERSPECTIVE HOVER */
- .perspective-box { position: relative; display:inline-block; width:100%; margin: 5px; cursor: pointer; transform: perspective(600px) translate3d(0, 0, 0);   backface-visiblity:none;  transform-style: preserve-3d;}	
+ .perspective-box { position: relative; display:inline-block; width:100%; margin: 5px; cursor: pointer; transform: perspective(600px) translate3d(0, 0, 0);   backface-visiblity:none;  transform-style: preserve-3d;}
 .perspective-box img { width:100%; float: left;}
 .perspective-box:hover { box-shadow: 0 66px 75px -10px rgba(0,0,0,.3);  transform-style: preserve-3d; z-index:20; }
 
@@ -188,12 +188,12 @@ footer{position: relative;}
 
 
 
-	
+
 /* HEADER */
 .header{ width: 100%; position: absolute; left: 0; top: -100%; z-index: 5; padding: 30px 100px; opacity: 0;}
-.header{-webkit-transition: all 1s ease; -moz-transition: all 1s ease; -ms-transform:all 1s ease; transition: all 1s ease; } 
-.header .logo{float: left; margin-right: 20px;}
-.header .logo img{ width: 35px;}
+.header{-webkit-transition: all 1s ease; -moz-transition: all 1s ease; -ms-transform:all 1s ease; transition: all 1s ease; }
+.header .logo{float: left; margin-right: 20px; margin-top: 0px;}
+.header .logo img{ width: 64px;}
 .header .phone{float: left; color: #fff !important; line-height: 32px; font-family: "Fjalla One";}
 .header .language{ float: right; margin-right: 30px; margin-bottom: 0;}
 .header .language li{ float: left; list-style: none; margin: 0; margin-left: 20px; font-family: "Fjalla One";}
@@ -226,7 +226,7 @@ footer{position: relative;}
 .slider .video-bg:after{content: ''; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: #1d3162; mix-blend-mode: lighten;}
 .slider .animation-hero{width: 100%; height: 100%; position: absolute; left: 0; top: 0; background:url(../images/hero1.gif) center no-repeat #131314; background-size: 600px 450px;}
 .slider .swiper-container{ width: 100%; height: 100%; position: absolute; left: 0; top: 0; overflow: hidden;}
-.slider .swiper-container{-webkit-transition: all 0.8s ease; -moz-transition: all 0.8s ease; -ms-transform:all 0.8s ease; transition: all 0.8s ease; } 
+.slider .swiper-container{-webkit-transition: all 0.8s ease; -moz-transition: all 0.8s ease; -ms-transform:all 0.8s ease; transition: all 0.8s ease; }
 .slider .swiper-container .swiper-wrapper{ width: 100%; float: left; display: flex; flex-direction: row;}
 
 
@@ -302,7 +302,7 @@ background-image: -ms-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,
 .slider .swiper-container .swiper-slide .inner .video-link:after{content: ""; position: absolute; left: 50%; top: 50%; margin-left: -3px; margin-top: -7px; width: 0; height: 0; border-style: solid; border-width: 7px 0 7px 10px; border-color: transparent transparent transparent #fff;}
 .slider .swiper-container .swiper-slide .inner .video-link .video-play-circle { stroke-dasharray: 315; stroke-dashoffset: 315; transition: stroke-dashoffset .5s;}
 .slider .swiper-container .swiper-slide .inner .video-link svg { transform: rotate(-90deg); transition: transform .3s; }
-.slider .swiper-container .swiper-slide .inner .video-link:hover .video-play-circle { stroke-dashoffset: 0; } 
+.slider .swiper-container .swiper-slide .inner .video-link:hover .video-play-circle { stroke-dashoffset: 0; }
 .slider .swiper-container .swiper-slide .inner .video-link .video-play-outline{width: 40px; height: 40px; position: absolute; left: 0; top: 0; border-radius: 50%; border: 3px solid rgba(255,255,255,0.05);}
 
 
@@ -314,7 +314,7 @@ background-image: -ms-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,
 .int-hero .video-bg video{min-width: 100%; min-height: 100%; float: left; opacity: 0.1;}
 .int-hero .video-bg:after{content: ""; width: 100%; height: 300px; position: absolute; left: 0; bottom: 0; z-index: 2; background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(19,19,20,1) 100%); background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(19,19,20,1) 100%); background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#131314',GradientType=0 ); }
 .int-hero .inner{ width: 100%; float: left; position: relative; z-index: 3;}
-.int-hero .inner{-webkit-transition: all 0.7s ease; -moz-transition: all 0.7s ease; -ms-transform:all 0.7s ease; transition: all 0.7s ease; } 
+.int-hero .inner{-webkit-transition: all 0.7s ease; -moz-transition: all 0.7s ease; -ms-transform:all 0.7s ease; transition: all 0.7s ease; }
 .int-hero .inner h2{max-width: 60%; font-size: 5em; float: left;}
 .int-hero .inner h2{transform: translateY(250px); opacity: 0;}
 .int-hero .inner h2{-webkit-transition: .25s ease-in-out;-moz-transition: .25s ease-in-out;-ms-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out;}
@@ -671,7 +671,7 @@ background-image: -ms-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,
 	.icon-features h3{font-size: 20px;}
 	.side-image-content .inner .contenty h2{font-size: 2em; text-indent: 0;}
 	.awards h2{font-size: 3em; text-indent: 0;}
-}	
+}
 
 
 
@@ -693,7 +693,7 @@ background-image: -ms-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,
 	.side-image-content .inner .contenty{padding: 100px 15%;}
 	.contact form input[type="text"]{border-radius: 0 !important; box-shadow: none !important;}
 	.contact form textarea{border-radius: 0 !important; box-shadow: none !important;}
-	
+
 }
 
 
@@ -748,6 +748,19 @@ background-image: -ms-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(19,19,20,
 	.footer .footer-bar span{ width: 100%; text-align: center;}
 }
 
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px transparent;
+  /* background-color: #fff; */
+}
 
+::-webkit-scrollbar {
+  width: 1px;
+  /* background-color: #fff; */
+}
 
-
+::-webkit-scrollbar-thumb {
+  /* background-color: #e5e5e5; */
+  border: 0px solid #fff;
+  border-radius: 10px;
+  opacity: 0.5;
+}
